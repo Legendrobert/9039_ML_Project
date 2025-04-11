@@ -1,0 +1,23 @@
+BiLSTM Multivariate Time Series Prediction Experiment Summary Report
+======================================================================
+
+Report generated on: 2025-03-26 12:06:33
+
+Best model for each dataset: 
+----------------------------------------------------------------------
+Dataset                   Best Model      RMSE            MAE             R²             
+----------------------------------------------------------------------
+Household Power           LSTM            0.8662          0.3339          0.9315         
+Tetouan Power             LSTM            258.1276        212.5109        0.9667         
+Air Quality               BiLSTM          73.9045         54.2157         0.7541         
+Appliances Energy         LSTM            4.4219          2.8586          0.8362          
+
+
+Average metrics across all models for each dataset:
+----------------------------------------------------------------------
+Dataset                   Average RMSE    Average MAE     Average R²     
+----------------------------------------------------------------------
+Household Power           1.7825          1.2340          0.6567         
+Tetouan Power             1192.6425       1134.3546       0.4063         
+Air Quality               105.6097        87.0474         0.3807         
+Appliances Energy         5.3349          3.6869          0.6443         
